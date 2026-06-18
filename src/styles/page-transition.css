@@ -1,0 +1,28 @@
+::view-transition-old(page-fade),
+::view-transition-new(page-fade) {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-fill-mode: both;
+}
+
+::view-transition-old(page-fade) {
+  animation-name: page-fade-out;
+  animation-duration: 0.18s;
+}
+
+::view-transition-new(page-fade) {
+  animation-name: page-fade-in;
+  animation-duration: 0.28s;
+  animation-delay: 0.1s;
+}
+
+@keyframes page-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+  }
+}

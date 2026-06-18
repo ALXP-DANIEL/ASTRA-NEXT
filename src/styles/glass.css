@@ -1,0 +1,25 @@
+:root {
+  --glass-bg: oklch(1 0 0 / 65%);
+  --glass-border: oklch(0.145 0 0 / 8%);
+  --glass-shadow: 0 8px 30px oklch(0.145 0 0 / 12%);
+  --glass-active: oklch(0.145 0 0 / 8%);
+}
+
+.dark {
+  --glass-bg: oklch(0.205 0 0 / 55%);
+  --glass-border: oklch(1 0 0 / 10%);
+  --glass-shadow: 0 8px 30px oklch(0 0 0 / 40%);
+  --glass-active: oklch(1 0 0 / 12%);
+}
+
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(180%);
+  transition:
+    background-color 0.5s ease,
+    border-color 0.5s ease,
+    box-shadow 0.5s ease;
+}
