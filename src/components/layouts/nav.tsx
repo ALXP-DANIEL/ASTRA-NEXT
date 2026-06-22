@@ -109,7 +109,7 @@ export function Nav() {
       <div className="fixed inset-x-0 top-0 z-50 hidden items-center justify-between px-8 py-4 lg:flex xl:px-12">
         <div className="glass flex items-center gap-2.5 rounded-full px-3.5 py-2 text-foreground">
           <Sparkle weight="fill" size={20} />
-          <span className="text-base font-bold tracking-tight">my_app</span>
+          <span className="text-base font-bold tracking-tight">ASTRA-NEXT</span>
         </div>
 
         <div className="flex items-center gap-2">

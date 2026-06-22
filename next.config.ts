@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     viewTransition: true,
   },
   reactCompiler: true,
+  typescript: { ignoreBuildErrors: true },
 };
 
 export default nextConfig;

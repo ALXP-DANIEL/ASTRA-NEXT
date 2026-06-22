@@ -2,7 +2,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
   title: "More",
-  description: "Explore more features and information from my_app.",
+  description: "Explore more features and information from ASTRA-NEXT.",
   path: "/more",
   type: "More",
 });

@@ -2,7 +2,7 @@ import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
   title: "Search",
-  description: "Search for content across my_app.",
+  description: "Search for content across ASTRA-NEXT.",
   path: "/search",
   type: "Search",
 });

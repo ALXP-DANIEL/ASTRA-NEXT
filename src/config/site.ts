@@ -2,10 +2,10 @@ import { env } from "@/env";
 import type { SiteConfig } from "@/types/site";
 
 export const siteConfig: SiteConfig = {
-  name: "my_app",
+  name: "ASTRA-NEXT",
   author: "ALXP-DANIEL",
   description: "A modern web application built with Next.js.",
-  keywords: ["my_app", "web application"],
+  keywords: ["ASTRA-NEXT", "web application"],
   url: {
     base: env.NEXT_PUBLIC_SITE_URL,
     author: "https://alifdaniel.dpdns.org",
