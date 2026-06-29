@@ -11,8 +11,6 @@ updates:
       time: "09:00"
       timezone: "Asia/Kuala_Lumpur"
     open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
     commit-message:
       prefix: "deps"
       prefix-development: "deps-dev"
@@ -38,8 +36,5 @@ updates:
       day: "monday"
       time: "09:00"
       timezone: "Asia/Kuala_Lumpur"
-    labels:
-      - "dependencies"
-      - "github-actions"
     commit-message:
       prefix: "ci"
