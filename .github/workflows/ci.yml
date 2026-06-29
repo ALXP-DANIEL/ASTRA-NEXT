@@ -36,5 +36,5 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Silence Next.js telemetry in CI
           NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
