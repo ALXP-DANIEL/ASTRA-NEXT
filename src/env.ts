@@ -9,7 +9,7 @@ export const env = createEnv({
     IS_MAINTENANCE: z.enum(["true", "false"]).default("false"),
   },
   client: {
-    NEXT_PUBLIC_SITE_URL: z.url(),
+    NEXT_PUBLIC_SITE_URL: z.url().default("http://localhost:3000"),
   },
   runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
